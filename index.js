@@ -5,7 +5,7 @@ import Header from './src/components/header';
 
 // create a component
 
-const App = () => <Header />;
+const App = () => <Header HeaderText={'Albums'} />;
 
 // render it to the device
 AppRegistry.registerComponent('albums', () => App);
