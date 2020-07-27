@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, Text, View} from 'react-native';
+import Button from './Button';
 import Card from './Card';
 import CardSection from './CardSection';
 
@@ -31,8 +32,13 @@ const AlbumDetail = ({movie}) => {
           <Text>{releaseYear}</Text>
         </View>
       </CardSection>
+
       <CardSection>
         <Image style={imageStyle} source={{uri: image_url}} />
+      </CardSection>
+
+      <CardSection>
+        <Button />
       </CardSection>
     </Card>
   );
