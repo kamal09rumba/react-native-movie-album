@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Star Wars",
+    "releaseYear": "1977",
+    "image_url": "https://i.pinimg.com/736x/2f/29/96/2f2996c1c1480c3c7a15dcc41450e113.jpg",
+    "imdb": "https://www.imdb.com/title/tt0076759/"
+  },
+  {
+    "id": "2",
+    "title": "Back to the Future",
+    "releaseYear": "1985",
+    "image_url": "https://wallpapercave.com/wp/wp3986103.jpg",
+    "imdb": "https://www.imdb.com/title/tt0088763/"
+  },
+  {
+    "id": "3",
+    "title": "The Matrix",
+    "releaseYear": "1999",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BYmZiODMyYTMtNjA5NC00ZDEzLTk2MmEtNTkyNmZjNWI2MDVkXkEyXkFqcGdeQXVyNjY0NDQ1MTc@._V1_SY1000_SX1600_AL_.jpg",
+    "imdb": "https://www.imdb.com/title/tt0133093/"
+  },
+  {
+    "id": "4",
+    "title": "Inception",
+    "releaseYear": "2010",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_SY1000_CR0,0,685,1000_AL_.jpg",
+    "imdb": "https://www.imdb.com/title/tt1375666/"
+  },
+  {
+    "id": "5",
+    "title": "Interstellar",
+    "releaseYear": "2014",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SY1000_CR0,0,640,1000_AL_.jpg",
+    "imdb": "https://www.imdb.com/title/tt0816692/"
+  }
+]

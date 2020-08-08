@@ -5,11 +5,7 @@ import Card from './Card';
 import CardSection from './CardSection';
 
 const AlbumDetail = ({movie}) => {
-  const {title, releaseYear} = movie;
-  const image_url =
-    'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg';
-  const url = 'https://www.imdb.com/title/tt1375666/';
-
+  const {title, releaseYear, image_url, imdb} = movie;
   const {
     thumbnailContainerStyle,
     thumbnailStyle,
@@ -17,6 +13,7 @@ const AlbumDetail = ({movie}) => {
     headerTextStyle,
     imageStyle,
   } = styles;
+
   return (
     <Card>
       <CardSection>
@@ -39,7 +36,7 @@ const AlbumDetail = ({movie}) => {
       </CardSection>
 
       <CardSection>
-        <Button onPress={() => Linking.openURL(url)}>IMDB</Button>
+        <Button onPress={() => Linking.openURL(imdb)}>IMDB</Button>
       </CardSection>
     </Card>
   );
@@ -53,7 +50,6 @@ const styles = {
   headerTextStyle: {
     fontSize: 18,
   },
-
   thumbnailContainerStyle: {
     justifyContent: 'center',
     alignItems: 'center',
