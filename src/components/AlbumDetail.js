@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Text, View} from 'react-native';
+import {Image, Text, View, Linking} from 'react-native';
 import Button from './Button';
 import Card from './Card';
 import CardSection from './CardSection';
@@ -8,6 +8,7 @@ const AlbumDetail = ({movie}) => {
   const {title, releaseYear} = movie;
   const image_url =
     'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg';
+  const url = 'https://www.imdb.com/title/tt1375666/';
 
   const {
     thumbnailContainerStyle,
@@ -38,7 +39,7 @@ const AlbumDetail = ({movie}) => {
       </CardSection>
 
       <CardSection>
-        <Button />
+        <Button onPress={() => Linking.openURL(url)}>IMDB</Button>
       </CardSection>
     </Card>
   );
